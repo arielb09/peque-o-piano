@@ -1,11 +1,11 @@
 'use strict';
 
 // Incrementar VERSION cuando cambien los archivos de la app.
-const VERSION = 'v1';
+const VERSION = 'v2';
 const ROOT = new URL('./', self.location.href);
 const PREFIX = 'piano-pequeno:' + ROOT.pathname + ':';
 const CACHE = PREFIX + VERSION;
-const ASSETS = ['index.html', 'manifest.webmanifest', 'icon.svg']
+const ASSETS = ['index.html', 'manifest.webmanifest', 'icon.svg', 'icon-192.png', 'icon-512.png']
   .map(path => new URL(path, ROOT).href);
 const INDEX = new URL('index.html', ROOT).href;
 

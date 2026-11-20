@@ -23,7 +23,7 @@
 <button class="key" data-note="4" aria-label="La" style="--color:#aacded;--shadow:#83aacd"><span class="symbol" aria-hidden="true">☁</span></button>
 </section>
 </main>
-<dialog id="adult"><h1>Ajustes para adultos</h1><label for="volume">Volumen del piano</label><input id="volume" type="range" min="0" max="100" value="35"><label><input id="motion" type="checkbox" checked> Animación del personaje</label><p class="note">Mantén pulsado el engranaje durante dos segundos para abrir estos ajustes. El volumen del dispositivo también controla la intensidad del sonido.</p><p class="note" id="offline-status" role="status">Comprobando disponibilidad sin conexión…</p><p class="note">Para guardar la app, ábrela primero con conexión desde GitHub Pages y espera la confirmación anterior. La caché puede ser eliminada por el navegador si borras sus datos o falta espacio.</p><p class="note">Instalación: usa el menú de tu navegador y busca «Instalar aplicación» o «Añadir a pantalla de inicio». La presentación depende del navegador; los íconos PNG para Android siguen pendientes.</p><p class="note">Los ajustes se restablecen al cerrar o recargar esta versión. No se recopilan datos.</p><button class="close" id="close">Volver al piano</button></dialog>
+<dialog id="adult"><h1>Ajustes para adultos</h1><label for="volume">Volumen del piano</label><input id="volume" type="range" min="0" max="100" value="35"><label><input id="motion" type="checkbox" checked> Animación del personaje</label><p class="note">Mantén pulsado el engranaje durante dos segundos para abrir estos ajustes. El volumen del dispositivo también controla la intensidad del sonido.</p><p class="note" id="offline-status" role="status">Comprobando disponibilidad sin conexión…</p><p class="note">Para guardar la app, ábrela primero con conexión desde GitHub Pages y espera la confirmación anterior. La caché puede ser eliminada por el navegador si borras sus datos o falta espacio.</p><p class="note">Instalación: usa el menú de tu navegador y busca «Instalar aplicación» o «Añadir a pantalla de inicio». La presentación del ícono y el tipo de instalación dependen del navegador y del dispositivo.</p><p class="note">Los ajustes se restablecen al cerrar o recargar esta versión. No se recopilan datos.</p><button class="close" id="close">Volver al piano</button></dialog>
 <script>
 'use strict';
 const keys=[...document.querySelectorAll('.key')], keyboard=document.querySelector('.keyboard'),friend=document.querySelector('.friend'),dialog=document.querySelector('#adult'),volume=document.querySelector('#volume'),motion=document.querySelector('#motion'),status=document.querySelector('#status');
@@ -74,7 +74,7 @@ async function setupOffline(){
       ?'Lista para usar sin conexión. Ya puedes cerrar y volver a abrir la app desde esta misma dirección.'
       :'La descarga offline no está completa. Mantén la conexión y vuelve a abrir la app.';
   }catch(error){
-    offlineStatus.textContent='No se pudo confirmar la descarga offline. Comprueba que sw.js, index.html, manifest.webmanifest e icon.svg estén publicados juntos y recarga con conexión.';
+    offlineStatus.textContent='No se pudo confirmar la descarga offline. Comprueba que sw.js, index.html, manifest.webmanifest, icon.svg, icon-192.png e icon-512.png estén publicados juntos y recarga con conexión.';
   }
 }
 setupOffline();
