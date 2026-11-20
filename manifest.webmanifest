@@ -1,0 +1,21 @@
+{
+  "id": "./",
+  "name": "Piano Pequeño",
+  "short_name": "Piano Pequeño",
+  "description": "Un piano infantil sencillo para explorar sonidos y colores, sin anuncios ni compras.",
+  "lang": "es",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f7f3ea",
+  "theme_color": "#f7f3ea",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

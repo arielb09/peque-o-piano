@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Piano Pequeño</title>
+  <desc id="desc">Personaje sonriente sobre cinco teclas de colores pastel.</desc>
+  <rect width="512" height="512" fill="#f7f3ea"/>
+  <ellipse cx="256" cy="411" rx="153" ry="15" fill="#e7e1d7"/>
+  <rect x="186" y="111" width="140" height="122" rx="52" fill="#b1cdbd"/>
+  <rect x="186" y="103" width="140" height="122" rx="52" fill="#c5dbcf"/>
+  <ellipse cx="229" cy="153" rx="9" ry="11" fill="#38464a"/>
+  <ellipse cx="283" cy="153" rx="9" ry="11" fill="#38464a"/>
+  <path d="M239 182 Q256 201 273 182" fill="none" stroke="#38464a" stroke-width="7" stroke-linecap="round"/>
+  <rect x="101" y="244" width="310" height="164" rx="23" fill="#e7e1d7"/>
+  <rect x="113" y="260" width="52" height="134" rx="12" fill="#d68c89"/>
+  <rect x="113" y="253" width="52" height="134" rx="12" fill="#f3aca6"/>
+  <rect x="171" y="260" width="52" height="134" rx="12" fill="#d6ad75"/>
+  <rect x="171" y="253" width="52" height="134" rx="12" fill="#f5cb91"/>
+  <rect x="230" y="260" width="52" height="134" rx="12" fill="#d1c078"/>
+  <rect x="230" y="253" width="52" height="134" rx="12" fill="#f2df95"/>
+  <rect x="289" y="260" width="52" height="134" rx="12" fill="#85b49c"/>
+  <rect x="289" y="253" width="52" height="134" rx="12" fill="#a9d4be"/>
+  <rect x="347" y="260" width="52" height="134" rx="12" fill="#83aacd"/>
+  <rect x="347" y="253" width="52" height="134" rx="12" fill="#aacded"/>
+  <g fill="#39424b" opacity=".65">
+    <circle cx="139" cy="350" r="9"/>
+    <path d="m197 337 4 8 9 1-7 6 2 9-8-4-8 4 2-9-7-6 9-1z"/>
+    <circle cx="256" cy="350" r="9"/>
+    <path d="M315 359 C291 345 308 335 315 344 C322 335 339 345 315 359"/>
+    <path d="M363 355 C357 349 361 343 367 344 C368 333 384 333 386 344 C397 344 397 357 387 357 H366z"/>
+  </g>
+</svg>
